@@ -1,0 +1,19 @@
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.nav-button{
+    outline: none !important;  
+    box-shadow: none !important;      
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .nav-button{
+        
+    }
+    
+}
