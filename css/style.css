@@ -8,12 +8,47 @@
     outline: none !important;  
     box-shadow: none !important;      
 }
+.hero-section{
+    background-image: url(../image/equipments.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.hero-header{
+    font-size: 60px !important;
+    font-weight: bolder;
+
+}
+.hero-btn{
+    outline: none !important;  
+    box-shadow: none !important;      
+    padding: 8px 30px;
+    font-size: 18px;
+}
 
 
 
 @media screen and (max-width: 600px) {
-    .nav-button{
-        
-    }
+    .hero-header{
+    font-size: 30px !important;
+    font-weight: bolder;
+}
+.hero-text {
+    font-size: 16px !important;
+}
+    .hero-section{
+    background-image: url(../image/model.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    } 
     
 }
