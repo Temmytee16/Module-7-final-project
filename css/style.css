@@ -38,13 +38,26 @@
     padding: 8px 30px;
     font-size: 18px;
 }
-.product-container{
+
+.product-container {
     max-width: 1550px;
 }
-.single-product{
+
+.single-product {
     width: 480px;
 }
 
+.cart-container {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-empty {
+    width: 600px;
+    margin: 0 auto !important;
+}
 
 @media screen and (max-width: 600px) {
     .navbar-nav {
@@ -67,8 +80,18 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    .about-text{
+
+    .about-text {
         font-size: 14px !important;
     }
 
+    .cart-container {
+        height: 100vh;
+
+    }
+
+    .cart-empty {
+        width: 100%;
+        margin: 0 10px !important;
+    }
 }
