@@ -1,54 +1,71 @@
-.navbar-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 50px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-.nav-button{
-    outline: none !important;  
-    box-shadow: none !important;      
+
+.nav-button {
+    outline: none !important;
+    box-shadow: none !important;
 }
-.hero-section{
-    background-image: url(../image/equipments.webp);
+
+.hero-section {
+    /* background-image: url(../image/equipments.webp); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/equipments.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 95vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 20px;
 }
-.hero-header{
+
+.hero-header {
     font-size: 60px !important;
     font-weight: bolder;
 
 }
-.hero-btn{
-    outline: none !important;  
-    box-shadow: none !important;      
+
+.hero-btn {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
     padding: 8px 30px;
     font-size: 18px;
 }
-
+.product-container{
+    max-width: 1550px;
+}
+.single-product{
+    width: 480px;
+}
 
 
 @media screen and (max-width: 600px) {
-    .hero-header{
-    font-size: 30px !important;
-    font-weight: bolder;
-}
-.hero-text {
-    font-size: 16px !important;
-}
-    .hero-section{
-    background-image: url(../image/model.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    } 
-    
+    .navbar-nav {
+        gap: 30px;
+        text-align: center !important;
+    }
+
+    .hero-header {
+        font-size: 30px !important;
+        font-weight: bolder;
+    }
+
+    .hero-text {
+        font-size: 16px !important;
+    }
+
+    .hero-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/model.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
 }
