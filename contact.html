@@ -16,7 +16,7 @@
 
 <body>
     <header>
-         <nav class="navbar bg-success navbar-expand-lg navbar-dark">
+        <nav class="navbar bg-success navbar-expand-lg navbar-dark">
             <div class="container ">
                 <a class="navbar-brand fw-bolder" href="index.html">OliSporting</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -42,7 +42,7 @@
                             <a class="nav-link" href="">Blog</a>
                         </li>
                     </ul>
-                    <div class="ms-auto bg-light d-flex align-items-center rounded-3 px-2">
+                    <div class="ms-auto bg-light d-flex align-items-center justify-content-center rounded-3 px-2">
                         <i class="fa-solid fa-cart-shopping fs-4 text-success"></i>
                         <a href="cart.html" class="nav-button btn btn-light text-success fw-bold ">Add to cart</a>
                     </div>
@@ -51,7 +51,29 @@
         </nav>
     </header>
     <main>
-        contact page
+        <section id="contact-us" class="px-3 ">
+            <div class="mt-5 mb-3 text-success">
+                <h1 class="fw-bold text-center">We’re Here for You</h1>
+                <p class="text-muted text-center">Whether it’s a question about gear or an order, our support team has
+                    your back.</p>
+            </div>
+            <form action="" class="container form-container p-4 shadow rounded bg-light">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Type your message..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success w-100 fw-bold">Send Message</button>
+            </form>
+        </section>
     </main>
     <footer class="py-4 bg-success text-white shadow ">
         <div class="container">
