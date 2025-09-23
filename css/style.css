@@ -67,5 +67,8 @@
         background-position: center;
         background-repeat: no-repeat;
     }
+    .about-text{
+        font-size: 14px !important;
+    }
 
 }
