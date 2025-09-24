@@ -67,21 +67,43 @@
 #contact-us {
     height: 80vh;
 }
-.faqs-section{
+
+.faqs-section {
     height: 80vh;
 }
-.form-button{
+
+.testimonials-section {
+    height: 80vh;
+}
+
+.form-button {
     outline: none !important;
     box-shadow: none !important;
     padding: 8px 30px !important;
 }
-.form-button:hover{
+
+.form-button:hover {
     color: #198754 !important;
     padding: 6px 28px !important;
     background-color: white !important;
     border: 2px solid #198754 !important;
     transition: 0.3s all ease-in-out;
 }
+
+.testimonials-header {
+    font-size: 40px !important;
+    font-weight: bolder;
+    color: #198754;
+}
+
+.testimonials-text {
+    font-style: italic;
+    color: #198754;
+}
+.testimonials-name{
+    color: #198754 !important;
+}
+
 @media screen and (min-width: 768px) {
     .navbar-nav {
         gap: 30px !important;
@@ -119,9 +141,25 @@
         height: 100vh;
 
     }
+    .faqs-section{
+        height: auto    ;
+    }
 
     .cart-empty {
         width: 100%;
         margin: 0 10px !important;
+    }
+
+    .testimonials-section {
+        height: auto;
+        padding: 1px !important;
+    }
+
+    .testimonials-header {
+        font-size: 20px !important;
+    }
+
+    .testimonials-header-text {
+        font-size: 14px !important;
     }
 }
