@@ -67,6 +67,9 @@
 #contact-us {
     height: 80vh;
 }
+.faqs-section{
+    height: 80vh;
+}
 .form-button{
     outline: none !important;
     box-shadow: none !important;
