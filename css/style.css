@@ -44,7 +44,7 @@
 }
 
 .single-product {
-    width: 480px;
+    max-width: 480px;
 }
 
 .cart-container {
@@ -58,17 +58,26 @@
     width: 600px;
     margin: 0 auto !important;
 }
-.form-container{
+
+.form-container {
     max-width: 600px;
     height: auto;
 }
-#contact-us{
+
+#contact-us {
     height: 80vh;
-    
 }
+
+@media screen and (min-width: 768px) {
+    .navbar-nav {
+        gap: 30px !important;
+        text-align: center !important;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .navbar-nav {
-        gap: 30px;
+        gap: 10px !important;
         text-align: center !important;
     }
 
