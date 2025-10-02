@@ -4,8 +4,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-.nav-button {
+body {
+   background-color: #dddddd;
+}
+h1, h2, h3,p, a, li, button {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3 {
+    font-weight: bolder;
+}
+.nav-button { 
     outline: none !important;
     box-shadow: none !important;
 }
